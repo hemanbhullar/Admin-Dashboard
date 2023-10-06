@@ -96,7 +96,7 @@ function ExpandedCard({param, setExpanded}){
     };
     const chartData = [
         {
-          name: 'Series 1',
+          name: param.title,
           data: [30, 40, 45, 50, 49, 60, 70],
         },
       ];
